@@ -6,5 +6,5 @@ get '/profissionaisvegs', to: 'places#profs'
 resources :places
 resources :contacts
 get '/contato', to: 'contacts#new'
-post '/contato', to: 'contacts#create'
+post '/contacts', to: 'contacts#create'
 end
