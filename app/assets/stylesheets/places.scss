@@ -1,0 +1,144 @@
+// Place all the styles related to the Places controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face {
+   font-family: "Gabo";
+   src: url(/assets/gabo.otf) format("truetype");
+ }
+
+body {
+  font-family: "Tahoma";
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: green;
+  font-family: "Bebas Neue";
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+
+#logo {
+  font-size: 60px;
+  padding: 0;
+  margin: 30px 30px 0 0;
+}
+
+ul li {
+  font-size: 23px;
+  .options {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .options2 {
+    padding: 0;
+    margin: 30px 55px 0 30px;
+  }
+      a:hover {
+        background-color: green;
+      }
+    }
+
+.jumbotron {
+  background-color: #ebebeb;
+  h1 {
+    margin: -30px 0;
+  }
+}
+
+.index {
+  margin: -40px 0;
+}
+
+#welcome {
+  margin-left: -45px;
+  margin-right: -45px;
+  padding-bottom: 30px;
+  font-size: 26.5px;
+}
+
+#search {
+  border-right: 2px solid;
+  border-color: #fff;
+}
+
+.select {
+  color: #000 !important;
+}
+
+#search2 {
+  padding-left: 85px;
+}
+
+.col-md-8 ul li {
+  font-size: 15px;
+  margin-left: -20px;
+}
+
+#local {
+  border: 2px solid black;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  border-radius: 15px;
+  border-color: #fff;
+  padding: 20px;
+  margin: 30px 0 10px 0;
+}
+
+#name {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #66661e;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px;
+  margin-bottom: -35px;
+  border-top: 1px solid;
+  border-color: #fff;
+  ul li {
+    list-style-type: none
+  }
+}
+
+.return {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.return a:link,
+.return a:visited {
+    color: #585858;
+    text-decoration: underline;
+}
+
+.return a:hover {
+  color: #939393;
+}
+
+.form {
+  border: solid black 2px;
+  border-color: white;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  li {
+    margin-top: 15px;
+    margin-left: -30px;
+    color: #000 !important;
+    font-size: 15px;
+  }
+}

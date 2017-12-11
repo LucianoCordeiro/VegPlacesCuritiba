@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  modality: MyString
+  description: MyString
+  openinghours: MyString
+  address: MyString
+  sort: MyString
+  facebookpage: MyString
+
+two:
+  name: MyString
+  modality: MyString
+  description: MyString
+  openinghours: MyString
+  address: MyString
+  sort: MyString
+  facebookpage: MyString
