@@ -157,19 +157,38 @@ table {
         text-align: center;
     }
     #welcome {
-      font-size: 44px;
+      font-size: 50px;
     }
     #rowes {
-      font-size: 34px;
+      font-size: 36px;
     }
     #search {
       border-style: none;
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 0 20px 0 20px;
+
     p {
-      font-size: 34px;
+      font-size: 36px;
+
       }
     }
-    #search2 p {
-      font-size: 34px;
+    #search2 {
+      border-top-style: 2px solid;
+      border-color: #fff;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0 20px 0 20px;
+
+    p {
+      font-size: 36px;
+    }
+  }
+
+    .btn {
+      padding: 8px 16px;
+      font-size: 25px;
+      margin-top: 20px;
     }
 
   }
