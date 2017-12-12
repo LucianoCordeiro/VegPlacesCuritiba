@@ -7,4 +7,5 @@ resources :places
 resources :contacts
 get '/contato', to: 'contacts#new'
 post '/contacts', to: 'contacts#create'
+get '/list', to: 'places#list'
 end

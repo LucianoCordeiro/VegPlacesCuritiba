@@ -84,4 +84,4 @@ production:
   <<: *default
   database: veg_places_production
   username: veg_places
-  password: <%= ENV['VEG_PLACES_DATABASE_PASSWORD'] %>
+  password: tart1991

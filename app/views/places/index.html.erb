@@ -3,7 +3,7 @@
     <div class="index">
       <p id="welcome">Bem-vindo ao Veg Places Curitiba e região! Este site conta, até o momento, com <u><%= places_count %></u>
         estabelecimentos vegetarianos e veganos (ou com opções veganas) cadastrados.</p>
-      <div class="row">
+      <div class="row" id="rowes">
 
           <%= render 'form_tags' %>
 
@@ -18,7 +18,7 @@
             <li>Tipo: <%= place.sort %></li>
             <li>Horário de funcionamento: <%= place.openinghours %></li>
             <li>Endereço: <%= place.address %></li>
-            <li><%= link_to "Página do Facebook", place.facebook_page %></li>
+            <li><%= link_to "Página do Facebook", place.facebookpage %></li>
           </ul>
           </div>
           <div class="col-md-4">
