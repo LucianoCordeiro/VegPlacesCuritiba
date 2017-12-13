@@ -1,0 +1,30 @@
+<%= form_for(@place) do |pl| %>
+<ul class="col-md-6">
+<li>
+<%= pl.label :name, "Nome" %>
+<%= pl.text_field :name %></li>
+
+<li><%= pl.label :modality, "Tipo" %>
+<%= pl.text_field :modality %></li>
+
+<li><%= pl.label :description, "Descrição" %>
+<%= pl.text_field :description %></li>
+
+<li><%= pl.label :openinghours, "Horário" %>
+<%= pl.text_field :openinghours %>
+</li>
+</ul>
+<ul class="col-md-6">
+<li><%= pl.label :sort, "Espécie" %>
+<%= pl.text_field :sort %></li>
+
+<li><%= pl.label :address, "Endereço" %>
+<%= pl.text_field :address %></li>
+
+<li><%= pl.label :facebookpage, "Pág Face" %>
+<%= pl.text_field :facebookpage %></li>
+</ul>
+
+<%= pl.submit "Atualizar Estabelecimento" %>
+
+<% end %>

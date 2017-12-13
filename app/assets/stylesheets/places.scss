@@ -48,7 +48,7 @@ ul li {
     margin: 30px 55px 0 30px;
   }
       a:hover {
-        background-color: green;
+        background-color: #ebebeb;
       }
     }
 
@@ -90,13 +90,14 @@ ul li {
 }
 
 #local {
+  background-color: #f7f7f7;
   border: 2px solid black;
   border-right-style: dashed;
   border-left-style: dashed;
   border-radius: 15px;
   border-color: #fff;
   padding: 20px;
-  margin: 30px 0 10px 0;
+  margin: 30px -20px 10px -20px;
 }
 
 #name {
@@ -147,6 +148,17 @@ footer {
 
 table {
   margin-top: 40px;
+  background-color: #f7f7f7;
+}
+
+td, th {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -188,5 +200,28 @@ table {
     font-size: 36px;
     margin-left: 10px;
   }
+
+  #name {
+    font-size: 30px;
+  }
+
+  #jovem {
+    font-size: 22px;
+    margin: 0 0px 0 -30px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 39px;
+    padding: 180px;
+  }
+
+  .return {
+    font-size: 26px;
+  }
+
 
   }
