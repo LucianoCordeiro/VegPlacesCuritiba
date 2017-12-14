@@ -53,7 +53,7 @@ ul li {
     }
 
 .jumbotron {
-  background-color: #f1e5ce;
+  background-color: #ebebeb;
   h1 {
     margin: -30px 0;
   }
@@ -84,13 +84,17 @@ ul li {
   margin-top: 15px;
 }
 
+.select {
+  border-radius: 3px;
+}
+
 .col-md-8 ul li {
   font-size: 15px;
   margin-left: -20px;
 }
 
 #local {
-  background-color: #f8f2e8;
+  background-color: #f7f7f7;
   border: 2px solid black;
   border-right-style: dashed;
   border-left-style: dashed;
@@ -169,10 +173,11 @@ table, th, td {
         text-align: center;
     }
     #welcome {
-      font-size: 50px;
+      font-size: 54px;
     }
     #rowes {
-      font-size: 36px;
+      font-size: 40px;
+
     }
     #search {
       border-style: none;
@@ -180,7 +185,7 @@ table, th, td {
       margin-right: -10px;
       padding: 25px 20px 25px 20px;
     p {
-      font-size: 39px;
+      font-size: 43px;
       }
     }
 
@@ -191,14 +196,14 @@ table, th, td {
       padding: 0 20px 0 20px;
 
     p {
-      font-size: 39px;
+      font-size: 43px;
       margin-top: 30px;
     }
   }
 
   .btn {
-    padding: 14px 28px;
-    font-size: 36px;
+    padding: 16px 32px;
+    font-size: 39px;
     margin-left: 10px;
   }
 
