@@ -167,6 +167,15 @@ table, th, td {
 
 @media screen and (max-width: 980px) {
 
+  body {
+    background-color: #ebebeb;
+  }
+
+  .navbar {
+    width: 105%;
+    margin-left: -20px;
+  }
+
 
     .container {
         width: 100%;
@@ -176,7 +185,7 @@ table, th, td {
       font-size: 54px;
     }
     #rowes {
-      font-size: 40px;
+      font-size: 38px;
 
     }
     #search {
