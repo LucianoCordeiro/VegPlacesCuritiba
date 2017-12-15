@@ -1,10 +1,15 @@
 
 <div class="row">
-  <div class="col-md-7">
+  <div class="col-lg-7">
+    <p id="contact" align="justify">Sinta-se a vontade em usar o espaço a seguir para fazer a recomendação de algum estabelecimento ou sugerir alguma correção.
+    </p>
+    <p id="contact" align="justify">Se você for
+    profissional vegetariano(a) ou vegano(a) cuja área de atuação é conectada ao vegetarianismo ou veganismo, indique sua área de atuação e o local
+    de atendimento/trabalho.</p>
     </div>
 <%= form_for(@contact) do |f| %>
 <%= notice %>
-<div class="col-md-5">
+<div class="col-lg-5">
 <ul class="form">
   <li><%= f.text_field :name, placeholder: 'Nome', size: "40x10" %></li>
   <li><%= f.email_field :email, placeholder: 'Email', size: "40x10" %></li>
