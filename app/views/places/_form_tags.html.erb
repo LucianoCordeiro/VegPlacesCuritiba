@@ -1,7 +1,7 @@
 <div class="col-lg-6" id="search">
   <p>Selecione o tipo de estabelecimento ou serviço desejado:</p>
 <%= form_tag places_path, :method => 'get' do %>
-  <%= select_tag 'search', options_for_select(["Lanchonete", "Restaurante", "Pizzaria", "Delivery", "Hamburgueria", "Cafeteria", "Sorveteria",
+  <%= select_tag 'search', options_for_select(["Lanchonete", "Restaurante", "Pizzaria", "Delivery e Encomendas", "Hamburgueria", "Cafeteria", "Sorveteria",
   "Produtos Veganos"], params[:search]), prompt: "Selecione um local ou serviço", class: "select" %>
   <%= submit_tag "Procurar", :name => nil, class: "btn btn-md btn-warning" %>
 <% end %>

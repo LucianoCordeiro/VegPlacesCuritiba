@@ -5,9 +5,12 @@
 @import "bootstrap";
 
 @font-face {
-   font-family: "Bebas Neue";
-   src: url(/assets/BebasNeue.otf) format("truetype");
- }
+	font-family: 'Bebas Neue';
+	src:url('fonts/BebasNeuewebfont.eot');
+		src: url('fonts/BebasNeuewebfont.ttf') format('truetype'),
+		url('fonts/BebasNeuewebfont.woff') format('woff'),
+		//url('fonts/icofonts.svg#icofonts') format('svg');
+}
 
 body {
   font-family: "Tahoma";
@@ -86,6 +89,10 @@ ul li {
 
 .select {
   border-radius: 3px;
+}
+
+h4 {
+  margin-top: 30px;
 }
 
 .col-md-8 ul li {
@@ -167,7 +174,7 @@ table, th, td {
 }
 
 #contact {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 10px;
   text-indent: 28px;
 }
@@ -250,6 +257,10 @@ table, th, td {
   h3 {
     font-size: 39px;
     padding-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
   }
 
   .return {

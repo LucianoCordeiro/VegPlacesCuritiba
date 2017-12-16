@@ -12,7 +12,3 @@ class Place < ApplicationRecord
     end
   end
 end
-
- def places_count
-   Place.count
- end

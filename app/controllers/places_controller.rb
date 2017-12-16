@@ -24,7 +24,7 @@ class PlacesController < ApplicationController
 
   def list
     @place = Place.new
-    @places = Place.all
+    @places = Place.all.order(:name)
   end
 
   def destroy
@@ -32,17 +32,17 @@ class PlacesController < ApplicationController
     redirect_to list_url, notice: 'Estabelecimento deletado'
   end
 
-private
+  private
 
-def profs
-end
+  def profs
+  end
 
-def place_params
-  params.require(:place).permit(:name, :modality, :description, :openinghours, :address, :sort, :facebookpage, :search)
-end
+  def place_params
+    params.require(:place).permit(:name, :modality, :description, :openinghours, :address, :sort, :facebookpage, :search)
+  end
 
-def set_place
-  @place = Place.find(params[:id])
-end
+  def set_place
+    @place = Place.find(params[:id])
+  end
 
 end

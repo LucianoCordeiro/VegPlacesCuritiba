@@ -16,3 +16,21 @@ Place.create(name: "Restaurante Veggie",
              openinghours: "Diariamente",
              address: "R. Izabel A Redentora, 1901",
              sort: "Vegano")
+
+Place.create(name: "Lanchonete Animal",
+             modality: "Lanchonete",
+             openinghours: "Diariamente",
+             address: "R. Izabel A Redentora, 1901",
+             sort: "Vegano")
+
+Place.create(name: "Galinhos Mário",
+             modality: "Lanchonete",
+             openinghours: "Diariamente",
+             address: "R. Izabel A Redentora, 1901",
+             sort: "Vegano")
+
+Place.create(name: "Alabamas Grill",
+             modality: "Lanchonete",
+             openinghours: "Diariamente",
+             address: "R. Izabel A Redentora, 1901",
+             sort: "Vegano")
