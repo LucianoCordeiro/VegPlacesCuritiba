@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/codahale/bcrypt-ruby.git
+  revision: f2db689ba567d1a018f4dacb1ccf909adc93e887
+  specs:
+    bcrypt (3.1.11)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -181,6 +187,7 @@ PLATFORMS
 DEPENDENCIES
   angularjs-rails (~> 1.6.2)
   autoprefixer-rails
+  bcrypt!
   bootstrap-sass (= 3.3.7)
   byebug
   capybara (~> 2.13)

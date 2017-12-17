@@ -1,20 +1,42 @@
+
+
 <% @places.each do |place| %>
-<div id="local">
-  <div class="row">
-    <div class="col-md-8">
-      <ul>
-      <li id="name"><u><%= place.name %></u><li>
-      <li id="jovem"><%= place.modality %></li>
-      <li id="jovem">Tipo: <%= place.sort %></li>
-      <li id="jovem">Horário de funcionamento: <%= place.openinghours %></li>
-      <li id="jovem">Endereço: <%= place.address %></li>
-      <li id="jovem"><%= link_to "Página do Facebook", place.facebookpage %></li>
-    </ul>
+
+  <% if place.modality != 'Delivery e Encomendas' %>
+    <div id="local">
+      <div class="row">
+        <div class="col-md-8">
+          <ul>
+            <li id="name"><u><%= place.name %></u><li>
+            <li id="jovem"><%= place.modality %></li>
+            <li id="jovem">Tipo: <%= place.sort %></li>
+            <li id="jovem">Horário de funcionamento: <%= place.openinghours %></li>
+            <li id="jovem">Endereço: <%= place.address %></li>
+            <li id="jovem"><%= link_to "Página do Facebook", place.facebookpage %></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <%= content_tag(:iframe, '', width: 225, height: 150,
+          src: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDlQvLpA0mO1hrqRqGzC9Cz2L_Q7n86kHw&q=#{place.name}") %>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <%= content_tag(:iframe, '', width: 225, height: 150,
-      src: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDlQvLpA0mO1hrqRqGzC9Cz2L_Q7n86kHw&q=#{place.name}") %>
+
+  <% else %>
+    <div id="local">
+      <div class="row">
+        <div class="col-md-8">
+          <ul>
+            <li id="name"><u><%= place.name %></u><li>
+            <li id="jovem"><%= place.modality %></li>
+            <li id="jovem">Tipo: <%= place.sort %></li>
+            <li id="jovem">Horário de funcionamento: <%= place.openinghours %></li>
+            <li id="jovem">Endereço: <%= place.address %></li>
+            <li id="jovem"><%= link_to "Página do Facebook", place.facebookpage %></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  <% end %>
+  
 <% end %>

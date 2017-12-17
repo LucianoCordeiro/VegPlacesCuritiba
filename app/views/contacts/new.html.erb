@@ -7,19 +7,20 @@
     <p id="contact" align="justify">Se você for
     profissional vegetariano(a) ou vegano(a) cuja área de atuação é conectada ao vegetarianismo ou veganismo, indique sua área de atuação e o local
     de atendimento/trabalho.</p>
-    </div>
-<%= form_for(@contact) do |f| %>
-<%= notice %>
-<div class="col-lg-5 col-lg-offset-1">
-<ul class="form">
-  <li><%= f.text_field :name, placeholder: 'Nome', size: "40x10" %></li>
-  <li><%= f.email_field :email, placeholder: 'Email', size: "40x10" %></li>
-  <li><%= f.text_area :body, placeholder: 'Digite seu texto...', size: "45x10" %></li>
-  <li style="text-align: center"><%= f.submit 'Enviar' %></li>
-<% end %>
-</ul>
-</div>
+  </div>
 
-</div>
+  <%= form_for(@contact) do |f| %>
+    <%= notice %>
+    <div class="col-lg-5 col-lg-offset-1">
+      <ul class="form">
+        <li><%= f.text_field :name, placeholder: 'Nome', size: "40x10" %></li>
+        <li><%= f.email_field :email, placeholder: 'Email', size: "40x10" %></li>
+        <li><%= f.text_area :body, placeholder: 'Digite seu texto...', size: "45x10" %></li>
+        <li style="text-align: center"><%= f.submit 'Enviar' %></li>
+    <% end %>
+      </ul>
+
+    </div>
+  </div>
 
 <div class="return"><a href="/">Voltar à página inicial</a></div>
