@@ -6,10 +6,10 @@
 
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('bebasneuewebfont-webfont.eot?#iefix') format('embedded-opentype'),
-         url('bebasneuewebfont-webfont.woff') format('woff'),
-         url('bebasneuewebfont-webfont.ttf')  format('truetype'),
-         url('bebasneuewebfont-webfont.svg#svgBebasNeue') format('svg');
+    src: font-url('bebasneuewebfont-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('bebasneuewebfont-webfont.woff') format('woff'),
+         font-url('bebasneuewebfont-webfont.ttf')  format('truetype'),
+         font-url('bebasneuewebfont-webfont.svg#svgBebasNeue') format('svg');
 }
 
 body {
