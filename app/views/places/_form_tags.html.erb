@@ -9,8 +9,8 @@
 <div class="col-lg-5 col-lg-offset-1" id="search2">
 <p>Ou selecione o bairro ou a cidade de seu interesse:</p>
 <%= form_tag places_path, :method => 'get' do %>
-  <%= select_tag 'search', options_for_select(["Abranches", "Alto da Rua XV", "Água Verde", "Bacacheri", "Batel", "Bom Retiro", "Centro",
-    "Hugo Lange", "Mercês", "Portão", "Rebouças", "São Francisco", "Seminário"], params[:search]), prompt: "Selecione um bairro ou cidade", class: "select" %>
+  <%= select_tag 'search', options_for_select(["Abranches", "Alto da Rua XV", "Água Verde", "Bacacheri", "Batel", "Bom Retiro", "Centro", "Centro Cívico",
+    "Hugo Lange", "Mercês", "Portão", "Rebouças", "São Francisco", "São José dos Pinhais", "Seminário"], params[:search]), prompt: "Selecione um bairro ou cidade", class: "select" %>
   <%= submit_tag "Procurar", :name => nil, class: "btn btn-md btn-warning" %>
 <% end %>
 </div>
