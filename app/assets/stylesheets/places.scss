@@ -14,7 +14,7 @@
 
 body {
   font-family: "Tahoma";
-  background-image: url("toalha_amarela.jpg");
+  background-image: font-url("toalha_amarela.jpg");
   color: #191919;
 }
 
@@ -92,7 +92,7 @@ ul li {
   border-radius: 3px;
   padding: 4px 0 7.5px;
   color: green !important;
-  border: 1.5px solid !important;
+  border: 1.3px solid !important;
   border-color: #000 !important;
 }
 
