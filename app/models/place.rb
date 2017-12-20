@@ -1,5 +1,7 @@
 class Place < ApplicationRecord
 
+  scope :vegan, -> {where(:sort => "Vegano")}
+
   def self.search(search)
     if search
       if search != ''
@@ -11,4 +13,5 @@ class Place < ApplicationRecord
       where(name: 'Joet')
     end
   end
+
 end

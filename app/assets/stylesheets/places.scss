@@ -14,7 +14,8 @@
 
 body {
   font-family: "Tahoma";
-  color: #000;
+  background-image: url("toalha_amarela.jpg");
+  color: #191919;
 }
 
 li {
@@ -56,7 +57,7 @@ ul li {
     }
 
 .jumbotron {
-  background-color: #ededed;
+  background-color: #fff;
   h1 {
     margin: -30px 0;
   }
@@ -74,12 +75,12 @@ ul li {
 }
 
 #rowes {
-  margin: 0 -50px 0 -50px;
+  margin: 0 -10px;
 }
 
 #search {
   border-right: 2px solid;
-  border-color: #fff;
+  border-color: #000;
   margin-top: 15px;
 }
 
@@ -89,9 +90,12 @@ ul li {
 
 .select {
   border-radius: 3px;
-  padding: 5px 0 7px;
-  background-color: #fff !important;
+  padding: 4px 0 7.5px;
+  color: green !important;
+  border: 1.5px solid !important;
+  border-color: #000 !important;
 }
+
 
 h4 {
   margin-top: 30px;
@@ -103,7 +107,7 @@ h4 {
 }
 
 #local {
-  background-color: #f7f7f7;
+  background-color: #f1f8f1;
   border: 2px solid black;
   border-right-style: dashed;
   border-left-style: dashed;
@@ -116,7 +120,7 @@ h4 {
 #name {
   font-size: 18px;
   margin-bottom: 15px;
-  color: #66661e;
+  color: #7f7f00;
 }
 
 footer {
@@ -125,7 +129,7 @@ footer {
   margin-top: 60px;
   margin-bottom: -35px;
   border-top: 1px solid;
-  border-color: #fff;
+  border-color: #000;
   ul li {
     list-style-type: none
   }
@@ -188,7 +192,7 @@ table, th, td {
 @media screen and (max-width: 980px) {
 
   body {
-    background-color: #ebebeb;
+    background-color: #ededed;
   }
 
   .navbar {
@@ -224,13 +228,13 @@ table, th, td {
     }
     #rowes {
       font-size: 38px;
+      margin: 0 -60px;
 
     }
     #search {
       border-style: none;
-      margin-left: -10px;
-      margin-right: -10px;
-      padding: 25px 20px 25px 20px;
+      margin: -15px -10px 0 -10px;
+      padding: 25px 20px;
     p {
       font-size: 47px;
       }
@@ -238,9 +242,8 @@ table, th, td {
 
     #search2 {
 
-      margin-left: -10px;
-      margin-right: -10px;
-      padding: 0 20px 0 20px;
+      margin: 0 -10px;
+      padding: 0 20px;
 
     p {
       font-size: 47px;
@@ -249,7 +252,7 @@ table, th, td {
   }
 
    #rowes .btn {
-    padding: 21px 32px 21px 32px;
+    padding: 22px 32px;
     font-size: 39px;
     margin-bottom: 8px;
     margin-left: 10px;
@@ -261,7 +264,7 @@ table, th, td {
 
   #jovem {
     font-size: 25px;
-    margin: 0 0px 0 -30px;
+    margin: 0 0 0 -30px;
   }
 
   footer {

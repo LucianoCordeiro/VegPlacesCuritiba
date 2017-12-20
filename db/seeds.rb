@@ -14,7 +14,7 @@ Place.create(name: "Restaurante Veg",
 Place.create(name: "Restaurante Veggie",
              modality: "Restaurante",
              openinghours: "Diariamente",
-             address: "R. Izabel A Redentora, 1901",
+             address: "R. Eugênio Flor, 1901, Abranches",
              sort: "Vegano")
 
 Place.create(name: "Lanchonete Animal",

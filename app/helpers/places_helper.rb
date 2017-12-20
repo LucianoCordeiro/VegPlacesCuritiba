@@ -11,5 +11,4 @@ module PlacesHelper
       "Nenhum estabelecimento foi encontrado"
     end
   end
-
 end

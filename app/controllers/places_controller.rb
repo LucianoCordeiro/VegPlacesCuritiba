@@ -3,7 +3,6 @@ class PlacesController < ApplicationController
   before_action :set_place, only: [:edit, :update, :destroy]
 
   def home
-    @places = Place.search(params[:search])
   end
 
   def create
