@@ -1,6 +1,7 @@
 class PlacesController < ApplicationController
 
   before_action :set_place, only: [:edit, :update, :destroy]
+  before_action :logged_in_user, only: [:list]
 
   def home
   end
@@ -46,6 +47,13 @@ class PlacesController < ApplicationController
 
   def set_place
     @place = Place.find(params[:id])
+  end
+
+  def logged_in_user
+    unless logged_in?
+      flash[:danger]= "You can not access this page"
+      redirect_to root_url
+    end
   end
 
 end
