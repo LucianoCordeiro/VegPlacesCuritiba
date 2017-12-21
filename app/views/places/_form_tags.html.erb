@@ -2,14 +2,15 @@
   <p>Selecione o tipo de estabelecimento ou serviço desejado:</p>
 <%= form_tag places_path, :method => 'get' do %>
   <%= select_tag 'search', options_for_select(["Lanchonete", "Restaurante", "Pizzaria", "Delivery e Encomendas", "Hamburgueria", "Cafeteria", "Confeitaria", "Sorveteria",
-  "Produtos Veganos"], params[:search]), prompt: "Selecione um local ou serviço", class: "select" %>
+  "Produtos Veganos Industrializados"], params[:search]), prompt: "Selecione um local ou serviço", class: "select" %>
   <%= submit_tag "Procurar", :name => nil, class: "btn btn-md btn-warning" %>
 <% end %>
 </div>
 <div class="col-lg-5 col-lg-offset-1" id="search2">
 <p>Ou selecione o bairro ou a cidade de seu interesse:</p>
 <%= form_tag places_path, :method => 'get' do %>
-  <%= select_tag 'search', options_for_select(["Abranches", "Alto da Rua XV", "Água Verde", "Bacacheri", "Bairro Alto", "Batel", "Boa Vista", "Bom Retiro", "Centro", "Centro Cívico",
+  <%= select_tag 'search', options_for_select(["Abranches", "Ahú", "Alto da Rua XV", "Água Verde", "Bacacheri", "Bairro Alto", "Batel", "Boa Vista",
+    "Bom Retiro", "Centro", "Centro Cívico", "Capão da Imbuia",
     "Hugo Lange", "Mercês", "Portão", "Rebouças", "São Francisco", "São José dos Pinhais", "Seminário"], params[:search]), prompt: "Selecione um bairro ou cidade", class: "select" %>
   <%= submit_tag "Procurar", :name => nil, class: "btn btn-md btn-warning" %>
 <% end %>
