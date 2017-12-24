@@ -37,7 +37,12 @@ li {
 #logo {
   font-size: 60px;
   padding: 0;
-  margin: 30px 30px 0 0;
+  margin: 8px 30px 22px 10px;
+}
+
+.image_tag {
+  height: 60px;
+  weight: 270px;
 }
 
 ul li {
@@ -203,6 +208,14 @@ table, th, td {
 
   #logo {
     font-size: 80px;
+    margin-left: 15px;
+  }
+
+  .image_tag {
+    height: 77px;
+    weight: 338px;
+    margin-top: -4px;
+
   }
 
   ul li {
@@ -219,7 +232,6 @@ table, th, td {
     width: 105%;
     margin-left: -20px;
   }
-
 
     .container {
         width: 100%;
