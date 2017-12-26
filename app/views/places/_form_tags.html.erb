@@ -10,8 +10,8 @@
 <p>Ou selecione o bairro ou a cidade de seu interesse:</p>
 <%= form_tag places_path, :method => 'get' do %>
   <%= select_tag 'search', options_for_select(["Abranches", "Ahú", "Alto da Rua XV", "Água Verde", "Bacacheri", "Bairro Alto", "Batel", "Boa Vista",
-    "Bom Retiro", "Centro", "Centro Cívico", "Capão da Imbuia",
-    "Hugo Lange", "Mercês", "Portão", "Rebouças", "São Francisco", "São José dos Pinhais", "Seminário"], params[:search]), prompt: "Selecione um bairro ou cidade", class: "select" %>
+    "Bom Retiro", "Capão da Imbuia", "Centro", "C. Cívico",
+    "Hugo Lange", "Jardim Botânico", "Mercês", "Portão", "Rebouças", "São Francisco", "São José dos Pinhais", "Seminário"], params[:search]), prompt: "Selecione um bairro ou cidade", class: "select" %>
   <%= submit_tag "Procurar", :name => nil, class: "btn btn-md btn-warning" %>
 <% end %>
 </div>
