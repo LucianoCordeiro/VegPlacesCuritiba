@@ -132,8 +132,7 @@ h4 {
   border-radius: 15px;
   border-color: #fff;
   padding: 20px 20px 20px 0;
-  margin-top: 30px;
-  margin-bottom: default;
+  margin-top: 20px;
 }
 
 #name {
@@ -165,21 +164,13 @@ footer {
   padding-top: 55px;
 }
 
-.return2 {
-  text-align: center;
-  padding-top: 240px;
-}
-
 .return a:link,
-.return a:visited,
-.return2 a:link,
-.return2 a:visited {
+.return a:visited {
     color: #585858;
     text-decoration: underline;
 }
 
-.return a:hover,
-.return2 a:hover {
+.return a:hover {
   color: #939393;
 }
 
@@ -221,6 +212,11 @@ table, th, td {
 
 #contact:last-child {
   margin-top: 55px;
+}
+
+#profsvegs {
+  font-size: 19.5px;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 980px) {
@@ -335,11 +331,6 @@ table, th, td {
     font-size: 26px;
   }
 
-  .return2 {
-    font-size: 26px;
-    padding-top: 320px;
-  }
-
   .form {
     li {
       margin-left: -14px;
@@ -357,6 +348,11 @@ table, th, td {
   #contact:last-child {
     text-indent: 28px;
     margin-bottom: default;
+  }
+
+  #profsvegs {
+    font-size: 39px;
+    margin-bottom: 20px;
   }
 
   }

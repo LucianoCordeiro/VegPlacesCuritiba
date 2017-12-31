@@ -1,9 +1,9 @@
 <% provide(:title, "| Profissionais Vegs") %>
 
-<p id="contact">Abaixo estão listados os(as) profissionais veganos(as) cujas áreas de atuação estão relacionadas ao vegetarianismo ou veganismo:</p>
+<p id="profsvegs">Abaixo estão listados os(as) profissionais veganos(as) cujas áreas de atuação estão relacionadas ao vegetarianismo ou veganismo:</p>
 
-
-<% @professionals.each do |professional| %>
+<div class="row">
+  <% @professionals.each do |professional| %>
 
     <div class="col-sm-6">
       <div id="professional">
@@ -17,8 +17,8 @@
       </div>
     </div>
 
-<% end %>
+  <% end %>
+</div>
 
 
-
-<div class="return2"><a href="/">Voltar à página inicial</a></div>
+<div class="return"><a href="/">Voltar à página inicial</a></div>
