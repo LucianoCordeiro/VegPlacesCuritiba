@@ -38,9 +38,6 @@ class PlacesController < ApplicationController
 
   private
 
-  def profs
-  end
-
   def place_params
     params.require(:place).permit(:name, :modality, :description, :openinghours, :address, :sort, :facebookpage, :search)
   end

@@ -1,0 +1,22 @@
+<% provide(:title, "| Profissionais Vegs") %>
+
+<p id="contact">Abaixo estão listados os(as) profissionais veganos(as) cujas áreas de atuação estão relacionadas ao vegetarianismo ou veganismo:</p>
+
+<% @professionals.each do |professional| %>
+
+
+    <div class="col-sm-6">
+      <div id="professional">
+
+        <ul>
+          <li id="name_professional"><u><%= professional.name %></u><li>
+          <li id="jovem_professional"><%= professional.function %></li>
+          <li id="jovem_professional">Número: <%= professional.phone_number %></li>
+          <li id="jovem_professional">Email: <%= professional.email %></li>
+        </ul>
+      </div>
+  </div>
+
+<% end %>
+
+<div class="return"><a href="/">Voltar à página inicial</a></div>
