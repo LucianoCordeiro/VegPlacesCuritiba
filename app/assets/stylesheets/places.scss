@@ -162,16 +162,24 @@ footer {
 
 .return {
   text-align: center;
+  padding-top: 55px;
+}
+
+.return2 {
+  text-align: center;
   padding-top: 240px;
 }
 
 .return a:link,
-.return a:visited {
+.return a:visited,
+.return2 a:link,
+.return2 a:visited {
     color: #585858;
     text-decoration: underline;
 }
 
-.return a:hover {
+.return a:hover,
+.return2 a:hover {
   color: #939393;
 }
 
@@ -324,6 +332,10 @@ table, th, td {
   }
 
   .return {
+    font-size: 26px;
+  }
+
+  .return2 {
     font-size: 26px;
     padding-top: 320px;
   }
